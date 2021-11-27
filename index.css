@@ -1,0 +1,118 @@
+body{
+    height: 650px;
+    width:100%;
+    margin: 0px;
+}
+
+#container{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    height: 8%;
+    width: 100%;
+    background-color:#a2cbbc;
+    padding-top:10px ;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    box-sizing: border-box;
+
+}
+
+#title{
+    height : 5%;
+    width:40%;
+    margin-left:2.5%;
+    padding-top:20px;
+    box-sizing: border-box;
+    font-size: 15px;
+    text-decoration: underline;
+
+
+}
+
+#body{
+    height: 75%;
+    width:95%;
+    margin:auto;
+    display: flex;
+    font-weight: bold;
+
+}
+
+#left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#footer{
+    width: 100%;
+    height:10%;
+    background-color: #e3e3e3;
+    text-align: center;
+
+}
+#checkboxCollection{
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+}
+.titlesForm{
+    text-decoration: underline;
+    font-weight: normal;
+}
+.rows{
+   display: flex;
+    width:100%;
+    margin-top:18px;
+}
+
+.label1{
+    width:40%;
+    height:100%;
+}
+
+.input1{
+    width:60%;
+    height:100%;
+}
+.astrix{
+    color: red;
+}
+
+select{
+    width:178px;
+}
+textarea{
+    height:100px;
+}
+
+ .footer{
+    background-color: #7aa897;
+    font-weight: bold;
+    height:40px;
+    width:100px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#headerDropDown{
+    background-color:#a2cbbc ;
+    margin-left: 30px;
+}
